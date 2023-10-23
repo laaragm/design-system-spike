@@ -1,0 +1,10 @@
+{
+    "name": "@larag-ui/eslint-config",
+    "license": "MIT",
+    "private": true,
+    "main": "index.js",
+    "devDependencies": {
+        "eslint": "^8.52.0",
+        "eslint-plugin-react": "^7.33.2"
+    }
+}

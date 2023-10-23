@@ -1,5 +1,5 @@
 {
-    "name": "@larag-ui/tokens",
+    "name": "@larag-ui/react",
     "version": "1.0.0",
     "description": "",
     "main": "./dist/index.js",
@@ -16,6 +16,7 @@
     "devDependencies": {
         "@larag-ui/eslint-config": "*",
         "@larag-ui/ts-config": "*",
+        "@larag-ui/tokens": "*",
         "tsup": "^7.2.0",
         "typescript": "^5.2.2"
     }

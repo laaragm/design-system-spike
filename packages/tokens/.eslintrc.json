@@ -1,0 +1,3 @@
+{
+    "extends": "@larag-ui/eslint-config"
+}
