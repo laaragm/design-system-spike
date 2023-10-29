@@ -1,0 +1,18 @@
+.color-box {
+    border: 1px solid #000000;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+.color-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark-text {
+    color: #000;
+}
+
+.light-text {
+    color: #fff;
+}
