@@ -39,6 +39,7 @@
     "vite": "^4.5.0"
   },
   "dependencies": {
-    "@stitches/react": "^1.2.8"
+    "@stitches/react": "^1.2.8",
+    "polished": "^4.2.2"
   }
 }

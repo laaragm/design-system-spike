@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Button, ButtonProps } from "..";
+import { Button, ButtonProps } from "../../index";
 
 export default {
     type: "Button", // page title

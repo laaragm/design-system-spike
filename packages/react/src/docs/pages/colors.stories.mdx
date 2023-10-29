@@ -1,0 +1,30 @@
+import { Meta } from "@storybook/addon-docs";
+
+import { ColorsGrid } from "../components/colors-grid";
+
+<Meta title="Tokens/Colors" />
+
+# Colors
+
+Color tokens are variables in a design system that represent specific colors. By using these instead of direct color values, consistency is maintained and updates become simpler, as changing a token's value reflects everywhere it's used.
+
+<br />
+
+## Table of Contents
+
+-   [Primitives](#primitives)
+-   [Core](#core)
+
+## Primitives
+
+Primitives lay the foundation for a consistent and effective user experience. Originating from hexadecimal values, each color adopts a descriptive name tied to its hue and intensity, such as "blue500". Serving as a bridge, these primitives separate the precise color value from its application in design.
+
+While using primitives directly provides flexibility, it might sacrifice consistency. For a design approach that's both semantic and easy to maintain, it's advised to utilize core colors. Derived from primitives, they guarantee a consistent design application and simplified updates.
+
+<ColorsGrid type="base" />
+
+## Core
+
+These are stem from primitives and focus on a color's function within the interface, rather than its shade. With semantic descriptions, tokens like "contentAccent" highlight key content pieces, irrespective of the actual color, be it blue, red, or any other hue.
+
+<ColorsGrid type="core" />

@@ -4,7 +4,7 @@ import { styled } from "./styles";
 
 export const Button = styled("button", {
     fontFamily: "$default",
-    fontWeight: "$semiBold",
+    fontWeight: "$medium",
     color: "$black",
     backgroundColor: "$blue100",
     borderRadius: "$md",

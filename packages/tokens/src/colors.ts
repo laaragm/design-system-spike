@@ -1,4 +1,4 @@
-const baseColors = {
+export const baseColors = {
     white: "#FFFFFF",
     black: "#000000",
 
@@ -39,7 +39,7 @@ const baseColors = {
     yellow500: "#FBC02D",
 };
 
-const core = {
+export const core = {
     backgroundPrimary: baseColors.white,
     backgroundSecondary: baseColors.gray100,
     backgroundTertiary: baseColors.gray200,
@@ -56,10 +56,8 @@ const core = {
     placeholder: baseColors.gray500,
 
     borderOpaque: baseColors.gray200,
-    borderTransparent: `8% ${baseColors.black}`,
     borderSelected: baseColors.black,
     borderInverseOpaque: baseColors.gray700,
-    borderInverseTransparent: `20% ${baseColors.white}`,
     borderInverseSelected: baseColors.white,
 };
 
