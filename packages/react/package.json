@@ -1,29 +1,44 @@
 {
-    "name": "@larag-ui/react",
-    "version": "1.0.0",
-    "description": "",
-    "main": "./dist/index.js",
-    "module": "./dist/index.mjs",
-    "types": "./dist/index.d.ts",
-    "scripts": {
-        "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
-        "lint": "eslint src/**/*.ts* --fix",
-        "build": "tsup src/index.tsx --format esm,cjs --dts --external react"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "MIT",
-    "devDependencies": {
-        "@larag-ui/eslint-config": "*",
-        "@larag-ui/tokens": "*",
-        "@larag-ui/ts-config": "*",
-        "@types/react": "^18.2.31",
-        "@types/react-dom": "^18.2.14",
-        "react": "^18.2.0",
-        "tsup": "^7.2.0",
-        "typescript": "^5.2.2"
-    },
-    "dependencies": {
-        "@stitches/react": "^1.2.8"
-    }
+  "name": "@larag-ui/react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+    "lint": "eslint src/**/*.ts* --fix",
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@larag-ui/eslint-config": "*",
+    "@larag-ui/tokens": "*",
+    "@larag-ui/ts-config": "*",
+    "@storybook/addon-essentials": "^7.5.1",
+    "@storybook/addon-interactions": "^7.5.1",
+    "@storybook/addon-links": "^7.5.1",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.5.1",
+    "@storybook/react": "^7.5.1",
+    "@storybook/react-vite": "^7.5.1",
+    "@storybook/testing-library": "^0.2.2",
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "@vitejs/plugin-react": "^4.1.0",
+    "eslint-plugin-storybook": "^0.6.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.5.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
+  }
 }
