@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { Button, ButtonProps } from "../../index";
 
 export default {
-    type: "Button", // page title
+    type: "Button",
     component: Button,
     args: {
         children: "Test",
