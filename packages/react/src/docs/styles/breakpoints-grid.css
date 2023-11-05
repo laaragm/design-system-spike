@@ -1,0 +1,26 @@
+.breakpoints-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.breakpoints-table th,
+.breakpoints-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.breakpoints-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.breakpoints-table tr:last-child td {
+    border-bottom: none;
+}
+
+.breakpoints-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
