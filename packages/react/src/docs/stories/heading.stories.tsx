@@ -15,8 +15,7 @@ export default {
     parameters: {
         docs: {
             description: {
-                component:
-                    "The 'Heading' component is used to render semantic heading elements on the page. It's important for accessibility and SEO to ensure that the headings are used in a hierarchical order.",
+                story: "The `Heading` component is used to render semantic heading elements on the page. It's important for accessibility and SEO to ensure that the headings are used in a hierarchical order.",
             },
         },
     },

@@ -10,7 +10,7 @@ export default {
     parameters: {
         docs: {
             description: {
-                component: "The 'Box' component serves as a wrapper for layout and spacing purposes.",
+                story: "The `Box` component serves as a wrapper for layout and spacing purposes.",
             },
         },
     },

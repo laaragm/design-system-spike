@@ -35,7 +35,7 @@ export default {
     parameters: {
         docs: {
             description: {
-                component: "Use 'Text' to display body text, captions, overlines, etc., with appropriate styling.",
+                story: "Use `Text` to display body text, captions, overlines, etc., with appropriate styling.",
             },
         },
     },
