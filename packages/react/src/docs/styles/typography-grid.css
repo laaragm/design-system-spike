@@ -1,23 +1,26 @@
-.font-families-grid {
+.typography-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
     padding: 1rem 0;
 }
 
-.font-family-box {
+.typography-box {
     padding: 1rem;
     border: 1px solid #e1e1e1;
     border-radius: 4px;
 }
 
-.font-family-box h2 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+.typography-content {
+    display: flex;
+    flex-direction: column;
 }
 
-.font-family-box p {
-    margin: 0;
+.typography-content strong {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.typography-content span {
     color: #666;
-    font-size: 0.875rem;
 }

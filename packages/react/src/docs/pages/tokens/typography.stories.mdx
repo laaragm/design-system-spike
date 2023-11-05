@@ -1,0 +1,40 @@
+import { Meta } from "@storybook/addon-docs";
+import { fonts, fontSizes, fontWeights, lineHeights } from "@larag-ui/tokens";
+import { TypographyGrid } from "../../components/typography-grid";
+
+<Meta title="Tokens/Typography" />
+
+# Typography
+
+Typography tokens are essential for maintaining consistency across your design system.
+
+## Table of Contents
+
+-   [Font Families](#font-families)
+-   [Font Sizes](#font-sizes)
+-   [Font Weights](#font-weights)
+-   [Line Heights](#line-heights)
+
+## Font Families
+
+Font family tokens ensure the correct font family is applied to text elements.
+
+<TypographyGrid items={fonts} type="family" />
+
+## Font Sizes
+
+Font size tokens are used to ensure consistent text scaling across the application.
+
+<TypographyGrid items={fontSizes} type="size" />
+
+## Font Weights
+
+Font weight tokens define the weight (thickness) of the characters in text.
+
+<TypographyGrid items={fontWeights} type="weight" />
+
+## Line Heights
+
+Line height tokens determine the amount of space above and below inline elements.
+
+<TypographyGrid items={lineHeights} type="lineHeight" />
