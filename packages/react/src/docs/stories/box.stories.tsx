@@ -4,7 +4,7 @@ import { Text } from "../../components/text";
 import { Box, BoxProps } from "../../components";
 
 export default {
-    type: "Components/Box",
+    title: "Components/Box",
     component: Box,
     args: {},
     parameters: {
