@@ -1,0 +1,20 @@
+.shadow-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+}
+
+.shadow-sample {
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: white;
+}
+
+.shadow-sample span {
+    text-align: center;
+}

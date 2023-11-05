@@ -1,0 +1,29 @@
+.token-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.token-box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.token-sample {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-bottom: 0.5rem;
+    background-color: #b093db;
+}
+
+.token-label strong {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.token-label span {
+    font-size: 0.875rem;
+    color: #555;
+}

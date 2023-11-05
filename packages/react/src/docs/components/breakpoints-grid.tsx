@@ -1,4 +1,5 @@
 import { breakpoints } from "@larag-ui/tokens";
+
 import "../styles/breakpoints-grid.css";
 
 export const BreakpointsGrid = () => {
