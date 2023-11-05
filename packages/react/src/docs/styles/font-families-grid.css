@@ -1,0 +1,23 @@
+.font-families-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.font-family-box {
+    padding: 1rem;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+}
+
+.font-family-box h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.font-family-box p {
+    margin: 0;
+    color: #666;
+    font-size: 0.875rem;
+}
