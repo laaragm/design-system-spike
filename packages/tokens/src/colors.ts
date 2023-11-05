@@ -33,9 +33,7 @@ export const baseColors = {
     purple900: "#250859",
 
     red500: "#D32F2F",
-
     green500: "#388E3C",
-
     yellow500: "#FBC02D",
 };
 
@@ -59,6 +57,11 @@ export const core = {
     borderSelected: baseColors.black,
     borderInverseOpaque: baseColors.gray700,
     borderInverseSelected: baseColors.white,
+
+    success: baseColors.green500,
+    error: baseColors.red500,
+    warning: baseColors.yellow500,
+    info: baseColors.blue500,
 };
 
 export const colors = { ...baseColors, ...core };

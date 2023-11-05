@@ -5,10 +5,14 @@ import { styled } from "../styles";
 export const Heading = styled("h2", {
     fontFamily: "$default",
     lineHeight: "$heading",
-    color: "$contentPrimary",
     fontWeight: "$bold",
     margin: 0,
     variants: {
+        color: {
+            primary: { color: "$contentPrimary" },
+            secondary: { color: "$contentSecondary" },
+            tertiary: { color: "$contentTertiary" },
+        },
         as: {
             h1: {
                 fontSize: "$4xl",
@@ -55,6 +59,7 @@ export const Heading = styled("h2", {
         },
     },
     defaultVariants: {
+        color: "primary",
         as: "h2",
     },
 });

@@ -6,9 +6,32 @@ import { styled } from "../styles";
 export const Text = styled("p", {
     fontFamily: "$default",
     lineHeight: "$body",
-    color: "$contentPrimary",
     margin: 0,
+    fontSize: "$md",
+    "@mobile": {
+        fontSize: "$sm",
+    },
+    "@tablet": {
+        fontSize: "$md",
+    },
+    "@laptop": {
+        fontSize: "$lg",
+    },
+    "@desktop": {
+        fontSize: "$xl",
+    },
     variants: {
+        color: {
+            primary: { color: "$contentPrimary" },
+            secondary: { color: "$contentSecondary" },
+            tertiary: { color: "$contentTertiary" },
+            accent: { color: "$contentAccent" },
+            placeholder: { color: "$placeholder" },
+            error: { color: "$error" },
+            success: { color: "$success" },
+            info: { color: "$info" },
+            warning: { color: "$warning" },
+        },
         size: {
             xxs: { fontSize: "$xxs" },
             xs: { fontSize: "$xs" },
@@ -22,6 +45,7 @@ export const Text = styled("p", {
         },
     },
     defaultVariants: {
+        color: "primary",
         size: "md",
     },
 });
