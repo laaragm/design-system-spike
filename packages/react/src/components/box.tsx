@@ -1,3 +1,4 @@
+import { ElementType } from "react";
 import { ComponentProps } from "@stitches/react";
 
 import { styled } from "../styles";
@@ -9,4 +10,4 @@ export const Box = styled("div", {
     borderRadius: "$sm",
 });
 
-export type BoxProps = ComponentProps<typeof Box>;
+export type BoxProps = ComponentProps<typeof Box> & { as?: ElementType };

@@ -1,6 +1,6 @@
 export const lineHeights = {
-    body: "160%",
     heading: "125%",
     compressed: "140%",
+    body: "160%",
     expanded: "180%",
 };

@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
+import { Text } from "../../components/text";
 import { Box, BoxProps } from "../../components/box";
 
 export default {
@@ -10,6 +11,6 @@ export default {
 
 export const Primary: StoryObj<BoxProps> = {
     args: {
-        children: <p>Lorem Ipsum</p>,
+        children: <Text>Lorem Ipsum</Text>,
     },
 };
