@@ -8,7 +8,13 @@ export default {
     argTypes: {
         disabled: {
             control: "boolean",
-            description: "The `TextArea` component serves as a multi-line text input field.",
+        },
+    },
+    parameters: {
+        docs: {
+            description: {
+                story: "The `TextArea` component serves as a multi-line text input field.",
+            },
         },
     },
 } as Meta;

@@ -25,6 +25,13 @@ export default {
         },
         onClick: { action: "Clicked!" },
     },
+    parameters: {
+        docs: {
+            description: {
+                story: "The `Button` component serves as an essential user interface element, enabling user interaction and response to actions within the application.",
+            },
+        },
+    },
 } as Meta<ButtonProps>;
 
 export const Primary: StoryObj<ButtonProps> = {
