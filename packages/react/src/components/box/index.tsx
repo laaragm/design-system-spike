@@ -1,7 +1,7 @@
 import { ElementType } from "react";
 import { ComponentProps } from "@stitches/react";
 
-import { styled } from "../styles";
+import { styled } from "../../styles";
 
 export const Box = styled("div", {
     backgroundColor: "$backgroundSecondary",

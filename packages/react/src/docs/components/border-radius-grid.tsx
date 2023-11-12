@@ -1,10 +1,10 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
 import "../styles/token-grid.css";
 
 interface TokenGridProps {
     tokens: { [key: string]: string | number };
-    renderToken: (tokenName: string, tokenValue: string | number) => JSX.Element;
+    renderToken: (tokenName: string, tokenValue: string | number) => ReactNode;
 }
 
 export const TokenGrid: React.FC<TokenGridProps> = ({ tokens, renderToken }) => {
