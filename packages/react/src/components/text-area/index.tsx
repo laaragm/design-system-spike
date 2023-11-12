@@ -2,16 +2,18 @@ import { ComponentProps, ElementRef, forwardRef } from "react";
 
 import { styled } from "../../styles";
 
-const Input = styled("input", {
+const StyledTextArea = styled("textarea", {
     width: "100%",
-    backgroundColor: "$backgroundSecondary",
     padding: "$3",
     fontSize: "$md",
+    backgroundColor: "$backgroundSecondary",
     fontFamily: "$default",
     boxSizing: "border-box",
     borderRadius: "$sm",
     border: "1px solid $borderSelected",
     transition: "border-color 0.3s",
+    resize: "vertical",
+    lineHeight: "$body",
     "&:hover": {
         borderColor: "$contentAccent",
     },
@@ -25,10 +27,10 @@ const Input = styled("input", {
     },
 });
 
-export interface TextInputProps extends ComponentProps<typeof Input> {}
+export interface TextAreaProps extends ComponentProps<typeof StyledTextArea> {}
 
-export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>((props, ref) => {
-    return <Input ref={ref} {...props} />;
+export const TextArea = forwardRef<ElementRef<typeof StyledTextArea>, TextAreaProps>((props, ref) => {
+    return <StyledTextArea ref={ref} {...props} />;
 });
 
-TextInput.displayName = "TextInput";
+TextArea.displayName = "TextArea";
