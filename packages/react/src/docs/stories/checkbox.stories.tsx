@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 
-import { Checkbox } from "../../components";
+import { Box, Checkbox, Text } from "../../components";
 
 export default {
     title: "Components/Checkbox",
@@ -16,6 +16,16 @@ export default {
             },
         },
     },
+    decorators: [
+        (Story) => {
+            return (
+                <Box as="label" css={{ display: "flex", flexDirection: "row", gap: "$2", alignItems: "center" }}>
+                    {Story()}
+                    <Text size="sm">Suggest follow-up questions</Text>
+                </Box>
+            );
+        },
+    ],
     parameters: {
         docs: {
             description: {
